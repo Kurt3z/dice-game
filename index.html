@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>🎲 The Dice Game</title>
+    </head>
+    <body>
+        <div class="results">
+            <p>Player One <span id="score-player--1">0</span> -</p>
+            <p><span id="score-player--2">0</span> Player Two</p>
+        </div>
+
+        <div class="container">
+            <h1>
+                <span id="win-player-1" class="hidden">🚩 </span>The Dice Game<span id="win-player-2" class="hidden">
+                    🚩</span
+                >
+            </h1>
+            <p id="draw" class="hidden">🏁 DRAW 🏁</p>
+
+            <div class="dice" id="one">
+                <p id="player-1">Player 1</p>
+                <img src="./img/dice1.png" alt="Dice" class="dice-1" />
+            </div>
+
+            <div class="dice" id="two">
+                <p id="player-2">Player 2</p>
+                <img src="./img/dice1.png" alt="Dice" class="dice-2" />
+            </div>
+
+            <button type="button" class="btn">Roll</button>
+        </div>
+
+        <footer>🎲 &copy; by Tiago Pinto 🎲</footer>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
